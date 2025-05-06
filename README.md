@@ -1,12 +1,41 @@
-# React + Vite
+AniSeek - Búsqueda de Animes
+Este es mi proyecto final del Bootcamp TripleTen, se trata de una web hecha con React y Vite que permite buscar animes y explorar personajes desde una API externa.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Características principales:
 
-Currently, two official plugins are available:
+- Página principal con descripción del proyecto.
+- Búsqueda de animes por nombre.
+- Visualización del Top de Animes.
+- Explora el Top de Personajes.
+- Filtrar por género con navegación completa.
+- Diseño responsivo para dispositivos móviles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologías utilizadas:
 
-## Expanding the ESLint configuration
+- React (con Vite).
+- JavaScript.
+- HTML5 / JSX.
+- CSS.
+- API externa : AnimeDB.
+- Vite como entorno de desarrollo.
+- react-router-dom para el sistema de rutas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Requisitos previos:
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
+
+- Node.js
+- npm
+
+Cómo ejecutar el proyecto:
+
+- Clonar el repositorio.
+- Instala las dependencias: npm install.
+- Inicia el servidor de desarrollo: npm run dev.
+- Abre tu navegador en: http://localhost:5173 (o el puerto que se indique).
+
+Configuración de la API:
+Este proyecto utiliza la API AnimeDB desde RapidAPI. Para usarlo correctamente:
+
+- Regístrate en RapidAPI.
+- Suscríbete al plan gratuito o de pago de AnimeDB.
+- Copia tu clave de API y actualiza esta línea en utils/api.js: const API_KEY = 'TU_API_KEY_AQUÍ';
