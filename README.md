@@ -1,4 +1,4 @@
-AniSeek - Búsqueda de Animes
+AniSeek - Búsqueda de Animes.
 Este es mi proyecto final del Bootcamp TripleTen, se trata de una web hecha con React y Vite que permite buscar animes y explorar personajes desde una API externa.
 
 Características principales:
