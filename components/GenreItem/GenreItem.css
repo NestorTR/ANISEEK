@@ -1,0 +1,32 @@
+.genre-item {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  max-width: 200px;
+  text-align: center;
+}
+
+.genre-title {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.genre-title__count {
+  font-family: "Rubik", sans-serif;
+  color: #7f08a3;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.genre-item__link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.genre-item__link:hover {
+  transform: scale (1.1);
+}

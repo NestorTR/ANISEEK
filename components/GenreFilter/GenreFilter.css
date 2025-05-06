@@ -1,0 +1,21 @@
+.genre-filter {
+  margin-bottom: 1.5rem;
+}
+
+.genre-filter__label {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.genre-filter__select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.genre-filter__select:focus {
+  border-color: #3f51b5;
+  outline: none;
+}
